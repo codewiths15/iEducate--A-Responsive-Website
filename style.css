@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex; /* Display flex is used to display nav-list and rightNav in a single row*/
+
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav-list{
+    width: 50%; /*To give 50-50 size to both class*/
+    
+    display: flex;
+    align-items: center;
+    
+}
+
+.nav-list li{
+    
+    list-style: none; /*To eliminate the dots*/
+    padding: 20px 20px;
+
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav-list li :hover{
+    
+    color: grey;
+
+}
+
+.rightNav{
+    width: 50%; /*To give 50-50 size to both class*/
+    
+    text-align: right;  /*To align the text on right side*/
+}
+
+#search{
+    padding: 5px;
+    font-size: 16px;
+    border: 2px solid gray;
+    border-radius: 9px;
+}
+
+.background{
+
+    background: rgba(0, 0,0, 0.7) url('http://wallup.net/wp-content/uploads/2015/12/227873-landscape-cityscape-building-sunset-USA-New_York_City.jpg') ;
+    background-size: cover;
+    background-blend-mode: darken ;
+}
